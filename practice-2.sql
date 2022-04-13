@@ -20,4 +20,6 @@
 -- | https://www.airbnb.com/rooms/25682427 | 16           |
 
 
-select URL, accommodates FROM listings where accommodates = 16
+select URL, accommodates 
+FROM listings
+WHERE accommodates = 16;
